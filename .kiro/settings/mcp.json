@@ -1,0 +1,13 @@
+{
+  "servers" :
+  {
+    "sayhello":{
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "main.py"
+      ]
+    }
+  }
+}
